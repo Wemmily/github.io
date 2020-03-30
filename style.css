@@ -1,0 +1,142 @@
+body {
+    background: black;
+    font-family: helvetica neue;
+    font-size: 12pt;
+}
+
+.toolbar {padding-bottom: 10vh;
+
+}
+.body {
+    background: black;
+    font-family: helvetica neue;
+    font-size: 12pt;
+}
+
+
+
+.h1 {
+    position: relative;
+    padding-top: 1vh;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 15%;
+    left: 0px;
+    top: 0px;
+    float: left;
+    letter-spacing: 0.25em;
+    font-size: 1vw;
+    text-align: left;
+    color: #00ff00;
+    transition: 0.1s;
+    text-decoration: none;
+    ;
+}
+.h1:hover {
+    color: white;
+    font-style: italic;
+}
+.h3 {
+    position: relative;
+    padding-top: 1vh;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 33%;
+    left: 0px;
+    top: 0px;
+    float: left;
+    letter-spacing: 0.25em;
+    font-size: 1vw;
+    text-align: left;
+    color: #00ff00;
+    transition: 0.1s;
+    text-decoration: none;
+    ;
+}
+
+.h3:hover {
+    color: white;
+    font-style: italic;
+}
+
+.h2 {
+  color: #00ff00;
+    font-size: 1VW;
+    padding-top: 1vh;
+    padding-right: 0px;
+    letter-spacing: 0.25em;
+    width: 35%;
+    float: right;
+    text-decoration: none;
+}
+.h2:hover {
+    color: white;
+    font-style: italic;
+}
+
+.p {
+    font-size: 1VW;
+    font-style: bold;
+    text-align: left;
+    position:left;
+    padding-left: 2.5vw;
+    padding-top:2.5vh;
+}
+
+.p:hover {
+    color: white;
+    font-style: italic;
+}
+
+.p1 { 
+  font-size:18pt;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 100px;
+  padding-left: 80%;
+  width: 80%;
+  left: 0px;
+  top: 0px;
+  float: right;
+  letter-spacing: 0.2em;
+  font-size:12pt;
+  text-align: left; 
+  color:#00ff00;
+  transition: 0.1s;
+
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translate(-80%, -50%);
+  font-size:18pt;
+  letter-spacing: 0.2em;
+  font-size:12pt; 
+  color:#ffffff;
+}
+
+
+/* have to make all p tags hidden*/
+.text-wrapper p {
+  display:none;
+  cursor: pointer;
+}
+
+/*Except the first one which needs to be visible in order to click it*/
+.text-wrapper p:first-of-type {
+  display:block;
+}
+
+
+
+
+
+@media only screen and (max-width: 350px) {
+    .nophono {}
+}
+
+//Work
+//About
+//Blog

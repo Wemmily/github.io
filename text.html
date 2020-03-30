@@ -1,0 +1,179 @@
+<html>
+
+<head>
+    <title> TEXT </title>
+    <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="toolbar">
+        <a class="h1" href="https://emma-irwin.com/"><u>TEXT</u></a>
+
+        <a class="h3" href="https://emma-irwin.com/blog"> INTERNET OBJECTS </a>
+
+        <a class="h2" href="https://emma-irwin.com/about"> VIRTUAL DESIGN STUDIO </a>
+
+        <div class="container">
+            <img  width="100%" height="100%" src="monitor.svg">
+
+            <div class="centered">
+
+                <!-- I put all the p tags in a div to seperate them from any other p tag you might put on the page -->
+                <div class="text-wrapper">
+                    <p id="0">
+                        </br>
+                        ( the internet ) setting\ forgotten </br>
+                        and habits).\ browsers and media nets\'85 </br>
+                        ( [ the]\ \cf0 parumendam loading ] ) </br>
+                        being: internet dimension ] internet.\ 60\ </br>
+                        connected with </br>
+                        from places to:\ privacy </br>
+                        image of [ the]\ ( internet )</br>
+                        </br>
+                    </p>
+
+                    <p id="1">
+                        Localised reality available\ </br>
+                        anxiety- textures </br>
+                        connection is temporary </br>
+                        signals \cf0 * * * [ s.l ) \ </br>
+                        of of the future disappear?\'94\ </br>
+                        physical\ connect\ systems pornography\'94 rejection </br>
+                        and concerns ( 2005 speed clicking )</br>
+                        </br>
+                    </p>
+
+                    <p id="2">
+                        And [ image 17 and the next update?\ of [ the]\ ( internet is broken available\ regardless working is the internet\ \pard\pardeftab720\partightenfactor0 \fs12 [ 71]\ ] internet and \'93web [ image 17 and the next update?\ of [ the]\ ( internet is broken available\ regardless working is the internet\ \pard\pardeftab720\partightenfactor0 \fs12 [ 71]\ ] internet and \'93web [ image 17 and the next update?\ of [ the]\ ( internet is broken available\ regardless working is the internet\
+                        </br>
+                    </p>
+                    
+
+                     <p id="3">
+                       Internet of it all and neither\ and cunard screen te [ nowhere]\ internet between a tennis is deliberately doing the capabilities [ 2nd is already alone.\ from a\ football et imusandi the mistake.\ is been\ it the before.\ is been\ ) of access\ internet aut volesecti pratia [ nowhere]\ internet between a tennis is deliberately doing the capabilities 
+                    </p>
+
+                     <p id="4">
+                       The new technology breaks 
+                        he would plug anytime 
+                        image and time both palpability of\ language).\ 
+                        associated in ways unknown 
+                        to the images lost in short 
+                        to concentrate installed anywhere)\ 
+                        the internet dimension about everything 
+                        to reasons unknown\ 
+                        for humans... Privacy is temporary 
+                    </p>
+
+                    <p id="5">
+                       [ online body ) playing dimension [ online body ) being trapped\ ) \'93enables people places places places places places places places places places ] between\ spaces completely much nonplaces\ ) into each future.\ design perspective [ the]\ internet.\ lucky\'92s nothing to do nothing.\ available clicking\ [ the]\ internet.\ 4\ [ hyperlinks ] internet\ ( 2007 speed clicking [ nowhere]\ 
+                    </p>
+
+                    <p id="6">
+                       Hands\'92\ clicking hands are adapted 
+                        to engage in conversation typing 
+                        to making everything accessible\ 
+                        and habits).\  
+                    </p>
+
+                    <p id="7">
+                       death.\ ( may exist\ ) 
+                        mixed textures of\ information 
+                        in humans unknown 
+                        for this feeling does killing problems 
+                    </p>
+
+                    <p id="8">
+                       phone.\ [ accessed ] 
+                        to engage conversations with equal\ 
+                        to understand the future.\ 
+                        to execute alone quickly  
+                    </p>
+
+                    <p id="9">
+                       people are left redundant 
+                        this means temporary rejection of bodies\ 
+                        connection is something forever meaning on on on on on 
+                        hand to make constantly available in work again 
+                        anymore.\ 
+                    </p>
+
+                    <p id="10">
+                       people are left redundant 
+                        this means temporary rejection of bodies\ 
+                        connection is something forever meaning on on on on on 
+                        hand to make constantly available in work again 
+                        anymore.\ 
+                    </p>
+
+                    <p id="11">
+                       hyperlinks between humans 
+                        connection is established 
+                        involves the skull 
+                        and concerns the old 
+                        is suicide 
+                    </p>
+
+                     <p id="12">
+                      
+                        Programmed using\ usb form.\ like facebook ( the future has been programmed ) \'93enables internet dimension of our everyday on exactly working anything into virtual\ in ways unknown that will instantly provide the future.\     
+                    </p>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- You should put the script at the end because it can can't recognise objects written after this code is executed -->
+
+        <script>
+
+            // This gets all p tags inside the div with a class of text-wrapper
+
+            var p = document.querySelectorAll('.text-wrapper > p');
+
+            // Keep track of which element we are showing
+
+            var current = 0;
+
+            // Function that changes the text
+
+            function updatetext() {
+                // get the currently visible p tag ( its id will be the same as the current variable above )
+                var hide = document.getElementById(current);
+                // hide it
+                hide.style.display = 'none';
+                // increase the current variable
+                current = current + 1;
+                // if current is the same as the number p tags we have, set it back to 0
+                if(current == p.length-1) {
+                    current = 0;
+                }
+                // find the tag we want to show. this will be whatever current has changed to
+                var show = document.getElementById(current);
+                // show it
+                show.style.display = 'block';
+          
+            }
+
+            // this is the loop
+            // 1. set i equal to 0 (var i = 0)
+            // 2. check if i is smaller that the number of p tags ( i<p.length )
+            // 3. if it's smaller get the p tag at index i (p[i]) and make it clickable
+            // 4. add 1 onto i (i++);
+            // 5. repeat steps 2 - 4 until step 2 becomes false.
+            for(var i=0; i<p.length; i++) {
+                p[i].addEventListener('click', updatetext);
+            }
+
+        </script>
+
+</body>
+
+</html>
